@@ -1,0 +1,211 @@
+{
+    "welcome": {
+        "title": "متجر نفرا",
+        "subtitle": "اكتشف المنتجات المميزة",
+        "description": "استمتع بتجربة التسوق الفاخر مع مجموعتنا المختارة من المنتجات المميزة.",
+        "signUp": "إنشاء حساب",
+        "signIn": "تسجيل الدخول"
+    },
+    "auth": {
+        "signUp": {
+            "title": "انضم إلى متجر نفرا",
+            "subtitle": "ابدأ رحلة التسوق المميزة",
+            "fullName": "الاسم الكامل",
+            "email": "البريد الإلكتروني",
+            "password": "كلمة المرور",
+            "confirmPassword": "تأكيد كلمة المرور",
+            "createAccount": "إنشاء حساب",
+            "successTitle": "تم إنشاء الحساب بنجاح!",
+            "successMessage": "مرحباً بك في متجر نفرا! يمكنك الآن البدء في استكشاف منتجاتنا المميزة.",
+            "startShopping": "بدء التسوق",
+            "fullNameRequired": "الاسم الكامل مطلوب",
+            "firstLetterUppercase": "يجب أن يبدأ الحرف الأول بحرف كبير",
+            "emailInvalid": "يجب أن يحتوي البريد الإلكتروني على @",
+            "passwordMinLength": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+            "passwordMismatch": "كلمات المرور غير متطابقة"
+        },
+        "signIn": {
+            "title": "مرحباً بعودتك",
+            "subtitle": "تسجيل الدخول إلى متجر نفرا",
+            "description": "استمر في تجربة التسوق الفاخرة",
+            "email": "البريد الإلكتروني",
+            "password": "كلمة المرور",
+            "forgotPassword": "نسيت كلمة المرور؟",
+            "signIn": "تسجيل الدخول",
+            "noAccount": "ليس لديك حساب؟",
+            "signUpLink": "إنشاء حساب",
+            "successTitle": "مرحباً بعودتك!",
+            "successMessage": "لقد تم تسجيل دخولك بنجاح إلى متجر نفرا. لنتابع التسوق!",
+            "continueShopping": "متابعة التسوق"
+        },
+        "validation": {
+            "title": "خطأ في التحقق",
+            "description": "يرجى إصلاح الأخطاء في النموذج"
+        }
+    },
+    "shop": {
+        "title": "منتجاتنا",
+        "featuredProducts": "المنتجات المميزة",
+        "hotOffers": "العروض الساخنة",
+        "addToCart": "تم إضافة العنصر إلى السلة",
+        "products": [
+            {
+                "id": 1,
+                "title": "قلادة فرعون مخصصة",
+                "price": "$299",
+                "image": "assets/images/home_images/customize_necles.jpg",
+                "rating": 4.8,
+                "isFeatured": true,
+                "description": "قلادة مخصصة منقوش عليها اسمك بالهيروغليفية المصرية القديمة."
+            },
+            {
+                "id": 2,
+                "title": "قلادة عين وحياة (Ankh)",
+                "price": "$189",
+                "image": "assets/images/home_images/eye_and_ankh.jpg",
+                "rating": 4.9,
+                "isFeatured": true,
+                "description": "قلادة فريدة تجمع بين عين حورس للحماية والأنخ، مفتاح الحياة."
+            },
+            {
+                "id": 3,
+                "title": "قلادة عين حورس",
+                "price": "$159",
+                "image": "assets/images/home_images/eye_of_hours.jpg",
+                "rating": 4.7,
+                "isFeatured": true,
+                "description": "قلادة أنيقة تعرض عين حورس، رمز الحماية والشفاء."
+            },
+            {
+                "id": 4,
+                "title": "قلادة جعران ذهبي",
+                "price": "$249",
+                "image": "assets/images/home_images/gcarab_necles.jpg",
+                "rating": 4.6,
+                "isHotOffer": true,
+                "description": "قلادة مستوحاة من الجعران، رمز مصري قديم للبعث والقوة."
+            },
+            {
+                "id": 5,
+                "title": "خاتم ألماس ملكي",
+                "price": "$1299",
+                "image": "assets/images/home_images/gold_rings.jpg",
+                "rating": 4.9,
+                "isHotOffer": true,
+                "description": "خاتم ألماس فاخر مصنوع من ذهب 18 قيراط، مستوحى من مجوهرات الفراعنة الملكية."
+            },
+            {
+                "id": 6,
+                "title": "أقراط جعران ذهبي",
+                "price": "$199",
+                "image": "assets/images/home_images/golden_gcarab_earrings.jpg",
+                "rating": 4.5,
+                "isHotOffer": true,
+                "description": "أقراط على شكل جعران ذهبي، ترمز للحظ والقوة والخلود."
+            },
+            {
+                "id": 7,
+                "title": "خاتم كاروش منقوش بالهيروغليفية",
+                "price": "$349",
+                "image": "assets/images/home_images/hieroglyphic_cartouche_solid_in_gold.jpg",
+                "rating": 4.6,
+                "isHotOffer": true,
+                "description": "خاتم ذهبي صلب منقوش بالهيروغليفية داخل إطار كاروش ملكي."
+            },
+            {
+                "id": 8,
+                "title": "قلادة جمال عصري",
+                "price": "$279",
+                "image": "assets/images/home_images/modern_beauty_ancient_inspiration.jpg",
+                "rating": 4.7,
+                "isHotOffer": true,
+                "description": "مزيج من الأناقة العصرية والإلهام المصري القديم في قلادة خالدة."
+            },
+            {
+                "id": 9,
+                "title": "خاتم نهر النيل الأزرق",
+                "price": "$229",
+                "image": "assets/images/home_images/nile_ring_blue.jpg",
+                "rating": 4.8,
+                "isHotOffer": true,
+                "description": "خاتم حجر أزرق مستوحى من النيل، يرمز للنقاء والخلود والحياة."
+            },
+            {
+                "id": 10,
+                "title": "خاتم هيروغليفي مخصص",
+                "price": "$359",
+                "image": "assets/images/home_images/personalized_hieroglyphic_ring.jpg",
+                "rating": 4.6,
+                "isHotOffer": true,
+                "description": "خاتم مخصص منقوش عليه اسمك بالهيروغليفية المصرية القديمة."
+            },
+            {
+                "id": 11,
+                "title": "خاتم قوة الفرعون",
+                "price": "$399",
+                "image": "assets/images/home_images/pharos_power_rings.jpg",
+                "rating": 4.7,
+                "isHotOffer": true,
+                "description": "خاتم جريء مصمم للإصبع السبابة، رمز السلطة الإلهية للفراعنة."
+            },
+            {
+                "id": 12,
+                "title": "سوار رموز الفرعون",
+                "price": "$279",
+                "image": "assets/images/home_images/pharos_symbols_bracelet.jpg",
+                "rating": 4.6,
+                "isHotOffer": true,
+                "description": "سوار منقوش عليه رموز الأنخ، عين حورس، الجعران، زهرة اللوتس وريشة الماع."
+            },
+            {
+                "id": 13,
+                "title": "خاتم الثعبان المقدس",
+                "price": "$249",
+                "image": "assets/images/home_images/snake_ring.jpg",
+                "rating": 4.7,
+                "isHotOffer": true,
+                "description": "خاتم على شكل ثعبان يرمز للحماية والخلود والقوة الملكية في مصر القديمة."
+            },
+            {
+                "id": 14,
+                "title": "قلادة أجنحة الشمس",
+                "price": "$299",
+                "image": "assets/images/home_images/wings_of_sun.jpg",
+                "rating": 4.8,
+                "isHotOffer": true,
+                "description": "قلادة مستوحاة من الشمس المجنحة، رمز فرعوني قوي للألوهية والحماية."
+            }
+        ],
+        "offers": [
+            {
+                "title": "خصم 50% على الإلكترونيات",
+                "subtitle": "عرض محدود على جميع الأجهزة التقنية",
+                "tag": "50% خصم"
+            },
+            {
+                "title": "شحن مجاني في عطلة نهاية الأسبوع",
+                "subtitle": "لا رسوم توصيل على الطلبات فوق $50",
+                "tag": "مجاناً"
+            },
+            {
+                "title": "اشترِ 2 واحصل على 1 مجاناً",
+                "subtitle": "على بعض الإكسسوارات والملحقات المختارة",
+                "tag": "B2G1"
+            },
+            {
+                "title": "خصم للطلاب",
+                "subtitle": "خصم إضافي 20% مع بطاقة طالب صالحة",
+                "tag": "20% خصم"
+            },
+            {
+                "title": "عروض الباقات",
+                "subtitle": "وفر أكثر عند شراء مجموعات كاملة",
+                "tag": "باقة"
+            }
+        ]
+    },
+    "common": {
+        "createAccount": "إنشاء حساب",
+        "backToHome": "العودة للرئيسية"
+    }
+}
